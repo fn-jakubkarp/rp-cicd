@@ -1,0 +1,11 @@
+bugfix:
+- any:
+  - head-branch: ['^fix', 'fix', 'bugfix', 'hotfix']
+  - changed-files:
+    - any-glob-to-any-file: ['**/fix*', '**/bug*', '**/hotfix*']
+
+feature:
+- any:
+  - head-branch: ['^feature', 'feature']
+  - changed-files:
+    - any-glob-to-any-file: ['**/feature*']
